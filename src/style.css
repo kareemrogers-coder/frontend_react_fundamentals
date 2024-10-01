@@ -1,0 +1,42 @@
+.div1 {
+color: rgb(82, 77, 77);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+}
+
+.div2{
+  font-weight: bold;
+  font-size: 100px;
+
+}
+
+.div3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:linear-gradient(rgba(131, 131, 104, 0.9),rgba(171, 155, 39, 0.9)), url(images/strange.jpg);
+    background-position: center;
+    background-size: cover;
+  } 
+
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
